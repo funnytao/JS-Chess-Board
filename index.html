@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>Chessboard using Pure CSS and HTML</title>
+<style type="text/css">
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+</style>
+</head>
+<body>
+<div class="chessboard">
+<!-- 1st -->
+<div onclick="move(id)" id="00" class="white">&#9820;</div>
+<div onclick="move(id)" id="01" class="black">&#9822;</div>
+<div onclick="move(id)" id="02" class="white">&#9821;</div>
+<div onclick="move(id)" id="03" class="black">&#9819;</div>
+<div onclick="move(id)" id="04" class="white">&#9818;</div>
+<div onclick="move(id)" id="05" class="black">&#9821;</div>
+<div onclick="move(id)" id="06" class="white">&#9822;</div>
+<div onclick="move(id)" id="07" class="black">&#9820;</div>
+<!-- 2nd -->
+<div onclick="move(id)" id="10" class="black">&#9823;</div>
+<div onclick="move(id)" id="11" class="white">&#9823;</div>
+<div onclick="move(id)" id="12" class="black">&#9823;</div>
+<div onclick="move(id)" id="13" class="white">&#9823;</div>
+<div onclick="move(id)" id="14" class="black">&#9823;</div>
+<div onclick="move(id)" id="15" class="white">&#9823;</div>
+<div onclick="move(id)" id="16" class="black">&#9823;</div>
+<div onclick="move(id)" id="17" class="white">&#9823;</div>
+<!-- 3th -->
+<div onclick="move(id)" id="20" class="white"></div>
+<div onclick="move(id)" id="21" class="black"></div>
+<div onclick="move(id)" id="22" class="white"></div>
+<div onclick="move(id)" id="23" class="black"></div>
+<div onclick="move(id)" id="24" class="white"></div>
+<div onclick="move(id)" id="25" class="black"></div>
+<div onclick="move(id)" id="26" class="white"></div>
+<div onclick="move(id)" id="27" class="black"></div>
+<!-- 4st -->
+<div onclick="move(id)" id="30" class="black"></div>
+<div onclick="move(id)" id="31" class="white"></div>
+<div onclick="move(id)" id="32" class="black"></div>
+<div onclick="move(id)" id="33" class="white"></div>
+<div onclick="move(id)" id="34" class="black"></div>
+<div onclick="move(id)" id="35" class="white"></div>
+<div onclick="move(id)" id="36" class="black"></div>
+<div onclick="move(id)" id="37" class="white"></div>
+<!-- 5th -->
+<div onclick="move(id)" id="40" class="white"></div>
+<div onclick="move(id)" id="41" class="black"></div>
+<div onclick="move(id)" id="42" class="white"></div>
+<div onclick="move(id)" id="43" class="black"></div>
+<div onclick="move(id)" id="44" class="white"></div>
+<div onclick="move(id)" id="45" class="black"></div>
+<div onclick="move(id)" id="46" class="white"></div>
+<div onclick="move(id)" id="47" class="black"></div>
+<!-- 6th -->
+<div onclick="move(id)" id="50" class="black"></div>
+<div onclick="move(id)" id="51" class="white"></div>
+<div onclick="move(id)" id="52" class="black"></div>
+<div onclick="move(id)" id="53" class="white"></div>
+<div onclick="move(id)" id="54" class="black"></div>
+<div onclick="move(id)" id="55" class="white"></div>
+<div onclick="move(id)" id="56" class="black"></div>
+<div onclick="move(id)" id="57" class="white"></div>
+<!-- 7th -->
+<div onclick="move(id)" id="60" class="white">&#9817;</div>
+<div onclick="move(id)" id="61" class="black">&#9817;</div>
+<div onclick="move(id)" id="62" class="white">&#9817;</div>
+<div onclick="move(id)" id="63" class="black">&#9817;</div>
+<div onclick="move(id)" id="64" class="white">&#9817;</div>
+<div onclick="move(id)" id="65" class="black">&#9817;</div>
+<div onclick="move(id)" id="66" class="white">&#9817;</div>
+<div onclick="move(id)" id="67" class="black">&#9817;</div>
+<!-- 8th -->
+<div onclick="move(id)" id="70" class="black">&#9814;</div>
+<div onclick="move(id)" id="71" class="white">&#9816;</div>
+<div onclick="move(id)" id="72" class="black">&#9815;</div>
+<div onclick="move(id)" id="73" class="white">&#9813;</div>
+<div onclick="move(id)" id="74" class="black">&#9812;</div>
+<div onclick="move(id)" id="75" class="white">&#9815;</div>
+<div onclick="move(id)" id="76" class="black">&#9816;</div>
+<div onclick="move(id)" id="77" class="white">&#9814;</div>
+</div>
+</body>
+</html>
